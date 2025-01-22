@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todos</title>
+</head>
+
+<body id="body">
+    <h1 id="title">Todos</h1>
+    <p id="description">Worry About Forgetting your work!!</p>
+    <form id="survey-form">
+        <label id="name-label" for="name">Enter Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter name">
+        <label for="email" id="email-label">Enter your email:</label>
+        <input type="email" id="email" placeholder="Enter email">
+        <label id="number-label">How many Todos You Want to write:<input type="number" id="number" min-0 max="50"
+                placeholder="Enter numer" /></label>
+        <p id="p2">Why are you Using Todos??</p>
+        <select id="dropdown" id="one">
+            <option>Select your option</option>
+            <option>Personal Todos</option>
+            <option>Daily Routine Todos</option>
+            <option>Unique Todos</option>
+        </select>
+        <fieldset id="one">
+            <legend>Male or Female??</legend>
+            <label><input type="radio" name="select" value="Male" />Male</label>
+            <label><input type="radio" name="select" value="Female" />Female </label>
+            <label><input type="radio" name="select" value="Other" />Other </label>
+        </fieldset>
+        <fieldset id="one">
+            <legend>From where you hear about us?</legend>
+            <label for="box"><input id="box" type="checkbox" value="Instagram" />Instagram</label>
+            <label><input type="checkbox" value="Youtube" />Youtube </label>
+            <label><input type="checkbox" value="Facebook" />Facebook</label>
+            <label><input type="checkbox" value="Other" />Other </label>
+
+        </fieldset>
+        <textarea id="comment" placeholder="Tell us about Yourself"></textarea>
+        <button id="submit" type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
